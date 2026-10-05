@@ -1,0 +1,21 @@
+{
+  "id": 162,
+  "title": "Mushroom Grow Chamber Disease Risk Alerts",
+  "repository_slug": "mushroom-grow-chamber-disease-risk-alerts",
+  "category": "Smart Agriculture",
+  "platform": "STM32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "RS-485",
+  "components": [
+    "LoRa module",
+    "SHT31",
+    "EC sensor"
+  ],
+  "scope": "Build a smart agriculture prototype that uses LoRa module, SHT31, EC sensor to flag conditions associated with crop disease. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Disease Risk Alerts demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/mushroom-grow-chamber-disease-risk-alerts/mushroom-grow-chamber-disease-risk-alerts.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
